@@ -1,0 +1,207 @@
+/* Colors */
+
+a {
+	color:#fff;
+	text-decoration: none;
+}
+
+.blue {
+    color:#0087be;
+}
+
+.green {
+    color:#76ad1c;
+}
+
+.purple {
+    color:#cf3180;
+}
+
+body {
+    font-family: "Arial";
+    font-weight: normal;
+    font-style: normal;
+}
+
+div#top .header ul.navigation {
+    font-weight: bold;
+    font-style: normal;
+    text-transform:uppercase;
+    font-size:14px;    
+}
+
+b {
+    font-weight:bold;
+}
+
+
+span.post_date {
+    font-size:10px;
+    font-weight: bold;
+    font-style: normal;
+    color:#9f9f9f;
+}
+/* This is the date */
+    span.post_date strong {
+        color:#77ad1a;
+    }
+    
+    .press span.post_date strong {
+        color: #0087be;
+    }
+
+p {
+    font-weight: normal;
+    font-style: normal;
+    font-size:12px;
+    margin-bottom:17px;
+}
+
+h1 {
+	font-family: 'Arial';
+    font-size:45px;
+    line-height:49px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom:20px;
+}
+
+
+h2 {
+    font-family: 'Arial';
+    font-size:32px;
+    line-height:32px;
+    font-style: normal;
+    margin-bottom:20px;
+}
+
+h3 { /* About subheadline */
+    font-family: 'Arial';
+    font-size:18px;
+    line-height:24px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom:6px;
+}
+
+h5 {
+    font-family: 'Arial';
+    font-size:18px;
+    line-height:24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom:6px;
+}
+
+h6 { /* GameInfo header */
+    font-family: 'Arial';
+    font-size:28px;
+    line-height:32px;
+    font-style: normal;
+    margin-bottom:20px;
+}
+
+div#container #aside .vacancies ul {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:14px;
+    line-height:25px;
+}
+
+div#container #article .right p, div#container #article .right h5, div#container #article .right ul {
+    padding-right:40px;
+}
+
+div#container #article .right h1 {
+    padding-right:40px;
+}
+
+div#container #article .right #aside p {
+    margin:0 10px 10px 20px;
+    padding-right:0;
+    color:#b1e8ff;
+    font-size:11px;
+}
+
+div#container #article .right #aside h4 {
+    margin:0 10px 10px 20px;
+    padding-right:0;
+    color:#fff;
+}
+
+div#container #article .right #aside ul {
+    font-size:12px;
+     margin:0 10px 10px 20px;
+     color:#b1e8ff;
+     font-size:11px;
+}
+
+div#container #article .right #aside li {
+    list-style:none;
+    list-style-position:inside;
+    margin-bottom:10px;
+}
+
+div#container #article .right #aside a {
+    color:#cccccc;
+}
+
+#game .gameHolder p {
+	margin:10px 0;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+#game .gameHolder ul {
+	font-size:11px;
+	line-height:20px;
+}
+
+
+.gamesNav ul li {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.gamesSubNavPaging {
+	font-size:12px;
+}
+
+.gameSubNavPaging {
+	font-size:14px;
+}
+
+#gamesWrapper ul li {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#gamesWrapper ul li span.type {
+	color:#777;
+}
+
+.gameInfo p {
+    color:#c2c2c2;
+}
+
+.gameInfo h2 {
+    color:#fff;
+}
+
+.gameInfo .right, .gameInfo .right p {
+    font-size:11px;
+    line-height:22px;
+    font-weight:bold;
+    color:#fff;
+    margin-bottom:0;
+}
+
+div#footer .breadcrumbs {
+	font-size:12px;
+	line-height:29px;
+}
+
+div#footer .sitemap {
+	font-size:11px;
+}
