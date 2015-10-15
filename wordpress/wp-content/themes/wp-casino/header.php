@@ -34,26 +34,7 @@
 
       <noindex>
         <form action="" method="post" class="log-form header-log-form">
-          <div class="log-form-fields">
-            <div class="mb-5">Вход в личный кабинет
-              <br>
-              <br>
-              <input class="log-form-field mb-7" type="email" name="email" size="10" placeholder="Логин" value="">
-              <input class="log-form-field mb-7" type="text" name="password" size="10" placeholder="Пароль" value="">
-              <input type="submit" name="submit" class="my-button my-button_xs" value="Войти">
-            </div>
-            <!--a href="http://777casino-vulkan.com/go/login" class="log-form-forget-link">Забыли пароль?</a-->
-          </div>
-          <div class="log-form-soc">Войти с помощью
-            <div class="my-login my-login-head">
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon mailru"  ></a>
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon vkontakte"  ></a>
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon odnoklassniki"  ></a>
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon yandex"  ></a>
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon facebook"  ></a>
-              <a href="http://777casino-vulkan.com/go/login" class="my-login-icon googleplus"  ></a>
-            </div>
-          </div>
+
         </form>
         <a href="http://777casino-vulkan.com/go/reg"  class="header-reg-but-area"><span class="header-reg-but">Регистрация</span></a>
       </noindex>

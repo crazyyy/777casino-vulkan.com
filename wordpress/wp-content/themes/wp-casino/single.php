@@ -40,8 +40,6 @@
     <div class="game-desc">
       <div class="footer_pre clear_fix">
         <?php the_content(); ?>
-
-        <?php get_template_part('include-nowplayng'); ?>
       </div>
     </div><!-- game-desc -->
 
