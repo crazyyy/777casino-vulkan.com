@@ -1,0 +1,235 @@
+/* Colors */
+
+a {
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.blue {
+  color: #0087be;
+}
+
+.green {
+  color: #76ad1c;
+}
+
+.purple {
+  color: #cf3180;
+}
+
+body {
+  font-family: 'Arial';
+  font-weight: normal;
+  font-style: normal;
+}
+
+div#top .header ul.navigation {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+
+  text-transform: uppercase;
+}
+
+b {
+  font-weight: bold;
+}
+
+span.post_date {
+  font-size: 10px;
+  font-weight: bold;
+  font-style: normal;
+
+  color: #9f9f9f;
+  strong {
+    color: #77ad1a;
+  }
+}
+
+/* This is the date */
+
+.press span.post_date strong {
+  color: #0087be;
+}
+
+p {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+
+  margin-bottom: 17px;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 49px;
+
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Arial';
+  font-size: 32px;
+  font-style: normal;
+  line-height: 32px;
+
+  margin-bottom: 20px;
+}
+
+h3 {
+  /* About subheadline */
+  font-family: 'Arial';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 24px;
+
+  margin-bottom: 6px;
+}
+
+h5 {
+  font-family: 'Arial';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+
+  margin-bottom: 6px;
+}
+
+h6 {
+  /* GameInfo header */
+  font-family: 'Arial';
+  font-size: 28px;
+  font-style: normal;
+  line-height: 32px;
+
+  margin-bottom: 20px;
+}
+
+div#container {
+  #aside .vacancies ul {
+    font-family: 'Arial';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  #article .right {
+    p,
+    h5,
+    ul,
+    h1 {
+      padding-right: 40px;
+    }
+    #aside {
+      p {
+        font-size: 11px;
+
+        margin: 0 10px 10px 20px;
+        padding-right: 0;
+
+        color: #b1e8ff;
+      }
+      h4 {
+        margin: 0 10px 10px 20px;
+        padding-right: 0;
+
+        color: #fff;
+      }
+      ul {
+        font-size: 12px;
+        font-size: 11px;
+
+        margin: 0 10px 10px 20px;
+
+        color: #b1e8ff;
+      }
+      li {
+        margin-bottom: 10px;
+
+        list-style: none;
+        list-style-position: inside;
+      }
+      a {
+        color: #ccc;
+      }
+    }
+  }
+}
+
+#game .gameHolder {
+  p {
+    font-weight: bold;
+
+    margin: 10px 0;
+    padding-left: 5px;
+  }
+  ul {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
+
+.gamesNav ul li {
+  font-size: 12px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.gamesSubNavPaging {
+  font-size: 12px;
+}
+
+.gameSubNavPaging {
+  font-size: 14px;
+}
+
+#gamesWrapper ul li {
+  font-size: 12px;
+  font-weight: bold;
+  span.type {
+    color: #777;
+  }
+}
+
+.gameInfo {
+  p {
+    color: #c2c2c2;
+  }
+  h2 {
+    color: #fff;
+  }
+  .right {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 22px;
+
+    margin-bottom: 0;
+
+    color: #fff;
+    p {
+      font-size: 11px;
+      font-weight: bold;
+      line-height: 22px;
+
+      margin-bottom: 0;
+
+      color: #fff;
+    }
+  }
+}
+
+div#footer {
+  .breadcrumbs {
+    font-size: 12px;
+    line-height: 29px;
+  }
+  .sitemap {
+    font-size: 11px;
+  }
+}
