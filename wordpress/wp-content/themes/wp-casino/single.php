@@ -1,38 +1,54 @@
 <?php get_header(); ?>
-  <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <div class="layout-content layout-content-light_top">
 
-      <h1 class="single-title inner-title"><?php the_title(); ?></h1>
+    <div class="rate-games">
+      <h3 class="rate-h3">Топ</h3>
 
-      <?php if ( has_post_thumbnail()) :?>
-        <a class="single-thumb" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-          <?php the_post_thumbnail(); // Fullsize image for the single post ?>
-        </a>
-      <?php endif; ?><!-- /post thumbnail -->
 
-      <span class="date"><?php the_time('d F Y'); ?> <?php the_time('H:i'); ?></span>
-      <span class="author"><?php _e( 'Published by', 'wpeasy' ); ?> <?php the_author_posts_link(); ?></span>
-      <span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'wpeasy' ), __( '1 Comment', 'wpeasy' ), __( '% Comments', 'wpeasy' )); ?></span><!-- /post details -->
+      <a class="rate-game" href="http://777casino-vulkan.com/igrovye-avtomaty/rock-climber.html">
+        <img width="188" height="125" src="./single_files/rock-climber-logo.jpg" class="attachment-post-thumbnail wp-post-image" alt="Игровой автомат Rock Climber">
+        <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
+        <div class="title-rate-game">Rock Climber</div>
+      </a>
 
-      <?php the_content(); ?>
 
-      <?php the_tags( __( 'Tags: ', 'wpeasy' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
+      <a class="rate-game" href="http://777casino-vulkan.com/igrovye-avtomaty/rock-climber.html">
+        <img width="188" height="125" src="./single_files/rock-climber-logo.jpg" class="attachment-post-thumbnail wp-post-image" alt="Игровой автомат Rock Climber">
+        <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
+        <div class="title-rate-game">Rock Climber</div>
+      </a>
 
-      <p><?php _e( 'Categorised in: ', 'wpeasy' ); the_category(', '); // Separated by commas ?></p>
 
-      <p><?php _e( 'This post was written by ', 'wpeasy' ); the_author(); ?></p>
+      <a class="rate-game" href="http://777casino-vulkan.com/igrovye-avtomaty/rock-climber.html">
+        <img width="188" height="125" src="./single_files/rock-climber-logo.jpg" class="attachment-post-thumbnail wp-post-image" alt="Игровой автомат Rock Climber">
+        <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
+        <div class="title-rate-game">Rock Climber</div>
+      </a>
 
-      <?php edit_post_link(); ?>
 
-      <?php comments_template(); ?>
+    </div><!-- rate-games -->
 
-    </article>
-  <?php endwhile; else: ?>
-    <article>
 
-      <h2 class="page-title inner-title"><?php _e( 'Sorry, nothing to display.', 'wpeasy' ); ?></h2>
 
-    </article>
-  <?php endif; ?>
-<?php get_sidebar(); ?>
+    <h1 class="header-h1"><?php the_title(); ?></h1>
+
+    <div class="games single">
+      <noindex>
+        <iframe scrolling="no" src="./single_files/hall-of-gods.html"></iframe>
+      </noindex>
+      <?php if(function_exists('the_ratings')) { the_ratings(); } ?>
+      <noindex><a href="http://777casino-vulkan.com/go/reg" onclick="yaCounter27715089.reachGoal(&#39;ia-reg&#39;); return true;" class="playb">Играть на деньги</a></noindex>
+    </div>
+
+    <div class="clear_fix"></div>
+
+    <div class="game-desc">
+      <div class="footer_pre clear_fix">
+        <?php the_content(); ?>
+
+        <?php get_template_part('include-nowplayng'); ?>
+      </div>
+    </div><!-- game-desc -->
+
+  </div><!-- layout-content layout-content-light_top -->
 <?php get_footer(); ?>

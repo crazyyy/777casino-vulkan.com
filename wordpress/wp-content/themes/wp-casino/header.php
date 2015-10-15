@@ -14,8 +14,8 @@
     <link href="<?php echo get_template_directory_uri(); ?>/favicon.ico" rel="shortcut icon">
 
     <!-- css + javascript -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-migrate.min.js"></script>
     <?php wp_head(); ?>
     <!--[if lte IE 8]>
       <script src="js/html5shiv.js"></script>

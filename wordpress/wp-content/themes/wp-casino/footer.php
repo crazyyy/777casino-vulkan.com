@@ -1,3 +1,4 @@
+    </div><!--end my-container-->
     <div class="footer_place"></div>
   </section>
 
