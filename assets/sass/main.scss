@@ -34,3 +34,55 @@ img.feature-img {
 .nav-menu {
   margin-left: 270px;
 }
+.games {
+  .newlister {
+    position: relative;
+    img {
+      width: 188px;
+      height: 125px;
+    }
+    .play-game,
+    .view-demo {
+      font-size: 120%;
+
+      position: absolute;
+      z-index: 5;
+
+      display: none;
+
+      padding: 10px 20px;
+
+      color: #fff;
+      border-radius: 8px;
+      &:hover {
+        text-decoration: none;
+
+        color: red;
+      }
+    }
+    .play-game {
+      top: 30px;
+      left: 50px;
+
+      background-color: green;
+      &:hover {
+        background-color: darken(green, 10%);
+      }
+    }
+    .view-demo {
+      top: 75px;
+      left: 55px;
+
+      background-color: blue;
+      &:hover {
+        background-color: darken(blue, 10%);
+      }
+    }
+    &:hover {
+      .play-game,
+      .view-demo {
+        display: block;
+      }
+    }
+  }
+}
